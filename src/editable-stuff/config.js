@@ -9,7 +9,7 @@ const mainBody = {
   firstName: "Gustavo",
   middleName: "",
   lastName: "Mendel",
-  message: " Jovem amante da tecnologia, buscando sempre me aprimorar e impactar pessoas através da tecnologia. ",
+  message: "Young technology lover, always looking to improve myself and impact people through technology.",
   icons: [
     {
       image: "fa-github",

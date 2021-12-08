@@ -21,11 +21,16 @@ const ExperienceCard = ({ data }) => {
                 
             </div> */}
             <a href={data.url} target='_blank' rel="noopener noreferrer" style={{ color: 'black', textDecorationLine: "none" }}>
-                <Card className="card shadow-lg p-3 mb-5 bg-white rounded">
+                <Card className="card shadow-lg p-2 mb-5 bg-white rounded">
                     <Card.Body className='text-center'>
                         <img className=" bg-white mb-3" src={data.companylogo} alt="" />
                         <Card.Title as="h6" >{data.role} </Card.Title>
                         {data.name}
+                        <br />
+                        <br />
+                        <p style={{fontSize: "0.9rem"}}>
+                          <em>{data.date}</em>
+                        </p>
                     </Card.Body>
                 </Card>
             </a>

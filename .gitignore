@@ -20,3 +20,6 @@
 .env.production.local
 
 *.log
+
+# Local Netlify folder
+.netlify
