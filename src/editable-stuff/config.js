@@ -5,7 +5,7 @@ const navBar = {
 
 // Main Body SECTION
 const mainBody = {
-  gradientColors: "#4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f, #ecf0f1",
+  gradientColors: "#fbb03b, #f27a46, #d54a57, #a62762, #691a64, #1e1657",
   firstName: "Gustavo",
   middleName: "",
   lastName: "Mendel",
@@ -47,7 +47,8 @@ const about = {
   imageSize: 375,
   message:
     "My name is Hashir Shoaib. I’m a graduate of 2020 from National University of Sciences and Technology at Islamabad with a degree in Computer Engineering. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering. In my free time I like working on open source projects.",
-  resume: "https://drive.google.com/file/d/113NUFLUQesIkzaQq4k7bcmCbLuUVDU6f/view?usp=sharing",
+  resumeEn: "https://drive.google.com/file/d/11C-JLVKGIcEIhzgZuRd1nzEDl1NdkQTb/view?usp=sharing",
+  resumePt: "https://drive.google.com/file/d/13gshtHmWSbPNXYPH0eD0wfojPYdvDtJ4/view?usp=sharing"
 };
 
 // PROJECTS SECTION
@@ -118,8 +119,8 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm currently looking for full-time Software Engineering or Machine Learning opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
-  email: "hashirshoaeb@gmail.com",
+    "I'm currently looking for internship and Juniors Jobs opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
+  email: "gustavo.mendel.br@gmail.com",
 };
 
 const experiences = {
@@ -127,25 +128,25 @@ const experiences = {
   heading: "Education & Experiences",
   data: [
     {
-      role: 'Estudante de Cientista da Computação',
+      role: 'Computer Science Student',
       companylogo: require('../assets/img/ufba.jpg'),
-      name: 'UBFA',
-      url: 'https://dcc.ufba.br',
-      date: 'Agosto 2019 - Atual'
+      name: 'UFBA',
+      url: 'https://computacao.ufba.br/pt-br/bacharelado-em-ciencia-da-computacao',
+      date: 'August 2019 - Current'
     },
     {
-      role: 'Gerente de Infraestrutura e Segurança',// Here Add Company Name
+      role: 'Infrastructure & Sec Manager',// Here Add Company Name
       companylogo: require('../assets/img/infojr.png'),
-      name: 'InfoJr UFBA',
+      name: 'Volunteer at InfoJr',
       url: 'https://infojr.com.br',
-      date: 'Agosto 2020 – Atual',
+      date: 'August 2020 – Current',
     },
     {
       role: 'Front-End Developer',
       companylogo: require('../assets/img/infojr.png'),
-      name: 'InfoJr UFBA',
+      name: 'Volunteer at InfoJr',
       url: 'https://infojr.com.br',
-      date: 'Agosto 2020 – Atual',
+      date: 'August 2020 – Current',
     },
   ]
 }

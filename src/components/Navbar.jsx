@@ -3,7 +3,7 @@ import { useScrollPosition } from "../hooks/useScrollPosition";
 import useResizeObserver from "../hooks/useResizeObserver";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
-import { mainBody, repos, about, skills } from "../editable-stuff/config.js";
+import { repos, about, skills } from "../editable-stuff/config.js";
 
 const Navigation = React.forwardRef((props, ref) => {
   // const { showBlog, FirstName } = config;
@@ -12,6 +12,7 @@ const Navigation = React.forwardRef((props, ref) => {
   const navbarMenuRef = React.useRef();
   const navbarDimensions = useResizeObserver(navbarMenuRef);
   const navBottom = navbarDimensions ? navbarDimensions.bottom : 0;
+  const logoMendel = require("../assets/img/mendelspace.png");
   useScrollPosition(
     ({ prevPos, currPos }) => {
       if (!navbarDimensions) return;
@@ -39,7 +40,7 @@ const Navigation = React.forwardRef((props, ref) => {
       expand="lg"
     >
       <Navbar.Brand className="brand" href={process.env.PUBLIC_URL + "/#home"}>
-        {`<${mainBody.lastName} />`}
+        <img src={logoMendel} alt="logo-mendel" style={{width: "5rem"}}/>
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" className="toggler" />
       <Navbar.Collapse id="basic-navbar-nav">
@@ -65,7 +66,7 @@ const Navigation = React.forwardRef((props, ref) => {
           )}
           <Nav.Link
             className="nav-link lead"
-            href={about.resume}
+            href={about.resumeEn}
             target="_blank"
             rel="noreferrer noopener"
           >

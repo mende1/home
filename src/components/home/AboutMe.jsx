@@ -6,11 +6,11 @@ const pictureLinkRegex = new RegExp(
   /[(http(s)?):(www.)?a-zA-Z0-9@:%._+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_+.~#?&//=]*)/
 );
 
-const AboutMe = ({ heading, message, link, imgSize, resume }) => {
+const AboutMe = ({ heading, message, link, imgSize, resumeEn, resumePt }) => {
   const [profilePicUrl, setProfilePicUrl] = React.useState("");
   const [showPic, setShowPic] = React.useState(Boolean(link));
 
-  
+
   React.useEffect(() => {
     const handleRequest = async () => {
       const instaLink = "https://www.instagram.com/";
@@ -47,24 +47,40 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
             )}
           </div>
 
-          <div className={`col-lg-${showPic ? "7" : "12"}`}>
+          <p className={`col-lg-${showPic ? "7" : "12"}`}>
             <h2 className="display-4 mb-5 text-center">{heading}</h2>
             <p className="lead text-center">{message}</p>
-            {resume && (
-              <p className="lead text-center">
-                <a
-                  className="btn btn-outline-dark btn-lg"
-                  href={resume}
-                  target="_blank"
-                  rel="noreferrer noopener"
-                  role="button"
-                  aria-label="Resume/CV"
-                >
-                  Resume
-                </a>
-              </p>
-            )}
-          </div>
+            <p>
+              {resumeEn && (
+                <p className="lead text-center">
+                  <a
+                    className="btn btn-outline-dark btn-lg"
+                    href={resumeEn}
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    role="button"
+                    aria-label="Resume/CV"
+                  >
+                    Resume EN
+                  </a>
+                </p>
+              )}
+              {resumePt && (
+                <p className="lead text-center">
+                  <a
+                    className="btn btn-outline-dark btn-lg"
+                    href={resumePt}
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    role="button"
+                    aria-label="Resume/CV"
+                  >
+                    Resume PT
+                  </a>
+                </p>
+              )}
+            </p>
+          </p>
         </div>
       </div>
     </div>
