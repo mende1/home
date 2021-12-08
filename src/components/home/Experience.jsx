@@ -8,7 +8,7 @@ import {
 
 const Experience = ({experiences}) => {
     return (  
-        <section className="section">
+        <section className="section" id="experience">
             <Container>
                 <Jumbotron fluid className="bg-white">
                     <h2 className="display-4 mb-5 text-center">
