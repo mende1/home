@@ -46,7 +46,7 @@ const about = {
   imageLink: require("../editable-stuff/me.png"),
   imageSize: 375,
   message:
-    "My name is Hashir Shoaib. I’m a graduate of 2020 from National University of Sciences and Technology at Islamabad with a degree in Computer Engineering. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering. In my free time I like working on open source projects.",
+    "My name is Gustavo Mendel. I’m a graduating in Computer Science at Federal University of Bahia (UFBA). ",
   resumeEn: "https://drive.google.com/file/d/11C-JLVKGIcEIhzgZuRd1nzEDl1NdkQTb/view?usp=sharing",
   resumePt: "https://drive.google.com/file/d/13gshtHmWSbPNXYPH0eD0wfojPYdvDtJ4/view?usp=sharing"
 };
@@ -119,7 +119,7 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm currently looking for internship and Juniors Jobs opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
+    "I'm currently looking for Internship and Juniors Jobs opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
   email: "gustavo.mendel.br@gmail.com",
 };
 
