@@ -47,8 +47,8 @@ const about = {
   imageSize: 375,
   message:
     "My name is Gustavo Mendel. I’m a graduating in Computer Science at Federal University of Bahia (UFBA). ",
-  resumeEn: "https://drive.google.com/file/d/11C-JLVKGIcEIhzgZuRd1nzEDl1NdkQTb/view?usp=sharing",
-  resumePt: "https://drive.google.com/file/d/13gshtHmWSbPNXYPH0eD0wfojPYdvDtJ4/view?usp=sharing"
+  resumeEn: "https://drive.google.com/file/d/1WsCTPzNaQ1ugdeqm7wOFk1xk46rGL8al/view?usp=sharing",
+  resumePt: "https://drive.google.com/file/d/1tVScPYvPYOaEXYwPNOOGqg6wQeExTZUq/view?usp=sharing"
 };
 
 // PROJECTS SECTION
